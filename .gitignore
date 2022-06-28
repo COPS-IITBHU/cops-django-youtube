@@ -123,3 +123,4 @@ dmypy.json
 
 #Virtual environment
 venv/
+my-project-env

@@ -9,7 +9,7 @@ class Book(models.Model):
     author = models.CharField(max_length=100)
     genre = models.CharField(max_length=100)
     description = models.TextField(null=True)
-    maximum_retail_price = models.PositiveIntegerField()
+    maximum_retail_price = models.PositiveIntegerField(null=True, blank=True)
     rating = models.FloatField(default=0.0)
 
     class Meta:
